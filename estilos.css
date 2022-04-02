@@ -1,0 +1,38 @@
+body{
+    background-image: url(universo.jpg);
+    background-size:cover;
+    display: flex;
+
+}
+*{
+    margin: 0px;
+}
+
+
+
+.principal{
+    border: 5px solid red;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+.principal__titulo{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal__parrafo{
+    font-size: 40px;
+}
+.principal__boton{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
